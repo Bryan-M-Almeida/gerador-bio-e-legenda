@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body{
+    background-color: rgb(46, 44, 44);
+}
+
+header h1 {
+    text-align: center;
+    color: pink;
+    background-color: rgb(150, 14, 14);
+}
+
+#gerador-legendas{
+text-align: center;
+}
