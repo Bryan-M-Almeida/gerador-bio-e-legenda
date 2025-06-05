@@ -5525,7 +5525,7 @@
             "#throwbacksunday",
             "#goodolddays"
         ],
-        "Pets": [
+        "pets": [
             "#petlove",
             "#petsofinstagram",
             "#petstagram",
@@ -5728,7 +5728,7 @@
             "#familymoment",
             "#familiaunidaprazempre"
         ],
-        "Amizade": [
+        "amizade": [
             "#amizadeverdadeira",
             "#bestfriends",
             "#amizadeévida",
@@ -5827,7 +5827,7 @@
             "#friendshiplife",
             "#amigosespeciaisparaavida"
         ],
-        "Date": [
+        "amor": [
             "#date",
             "#datenight",
             "#romance",
@@ -5930,7 +5930,7 @@
             "#datenightgoals",
             "#lovequoteoftheday"
         ],
-        "Studygram": [
+        "estudos": [
             "#studygram",
             "#studytime",
             "#studyhard",
@@ -6149,7 +6149,7 @@
             "#workhardworksmart",
             "#workteamspirit"
         ],
-        "Rolê": [
+        "profissao": [
             "#rolê",
             "#nightout",
             "#partytime",
@@ -6264,7 +6264,7 @@
             "#rolêtopzera2024",
             "#baladinhaamiga"
         ],
-        "Aniversário": [
+        "aniversario": [
             "#aniversario",
             "#birthday",
             "#felizaniversario",
@@ -6377,7 +6377,7 @@
             "#birthdaycakefunny",
             "#birthdaycelebrator"
         ],
-        "Criatividade": [
+        "arte": [
             "#criatividade",
             "#creative",
             "#creativity",
@@ -6587,7 +6587,7 @@
             "#popmusiclover2024",
             "#popartcollector"
         ],
-        "Humor": [
+        "meme": [
             "#humor",
             "#funny",
             "#lol",
@@ -6695,7 +6695,7 @@
             "#laughdaily",
             "#funnychallengefunnyvideos"
         ],
-        "Motivacional": [
+        "motivacional": [
             "#motivação",
             "#motivation",
             "#inspiration",
@@ -6802,7 +6802,7 @@
             "#successquotesdaily",
             "#motivationquoteofthemonth"
         ],
-        "Reflexão": [
+        "reflexao": [
             "#reflexão",
             "#thoughts",
             "#reflection",
@@ -6912,7 +6912,7 @@
             "#thoughtfulmind",
             "#growthmindsetquotes"
         ],
-        "Estetica": [
+        "mood": [
             "#estetica",
             "#aesthetic",
             "#esthetic",
@@ -7128,7 +7128,7 @@
             "#beforeaftertransformation2024",
             "#transformationphotoshoot"
         ],
-        "viral": [
+        "trend": [
             "#viral",
             "#trending",
             "#viralvideo",
