@@ -4,20 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Bio</title>
+    <title>Gerador redes Sociais</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3391/3391090.png" type="image/x-icon">
 </head>
 
 <body>
 
     <header>
-        <h1>Gerador de Bio para insta</h1>
+        <h1>Crie Conteúdos Rápidos para Suas Redes Sociais</h1>
+        <p>Use os menus abaixo para gerar biografias, legendas e hashtags automáticas. Escolha a categoria, clique em
+            "Enviar" e copie o resultado. Serve para Instagram, TikTok, Twitter, Threads, LinkedIn e mais.</p>
     </header>
+
 
     <section id="gerador-legendas">
         <h1>Legendas</h1>
         <form id="form-legendas">
-            <select name="seletor-legendas" id="seletor-legendas" required>
+            <select name="seletor-legendas" id="seletor-legendas">
                 <option value="" selected disabled>Escolha uma categoria</option>
                 <option value="praia">Praia</option>
                 <option value="estudos">Estudos</option>
@@ -44,18 +48,19 @@
                 <option value="mood">Mood</option>
                 <option value="makeup">Makeup</option>
                 <option value="dia-a-dia">Dia a Dia</option>
-                <option value="before-after">Antes e Depois</option>
+                <option value="antes-depois">Antes e Depois</option>
                 <option value="natura">Natureza</option>
                 <option value="noturno">Noturno</option>
                 <option value="throwback">Throwback</option>
             </select>
-            <button type="submit">Enviar</button>
+            <button class="btn-l" type="submit">Enviar</button>
         </form>
+        <span class="resultado-legenda"></span>
     </section>
     <section id="gerador-bio">
         <h1>Biografia</h1>
         <form id="form-biografia">
-            <select name="seletor-biografia" id="seletor-biografia" required>
+            <select name="seletor-biografia" id="seletor-biografia">
                 <option value="" selected disabled>Escolha uma categoria</option>
                 <option value="influencer">Influencer</option>
                 <option value="criativo">Criativo(a)</option>
@@ -78,14 +83,15 @@
                 <option value="emoji">Só com emojis</option>
                 <option value="aesthetic">Estilo aesthetic</option>
             </select>
-            <button type="submit">Enviar</button>
+            <button class="btn-b" type="submit">Enviar</button>
         </form>
+        <span class="resultado-biografia"></span>
     </section>
 
     <section id="gerador-hashtag">
         <h1>Hashtags</h1>
         <form id="form-hashtag">
-            <select name="seletor-hashtag" id="seletor-hashtag" required>
+            <select name="seletor-hashtag" id="seletor-hashtag">
                 <option value="" selected disabled>Escolha uma categoria</option>
                 <option value="selfie">Selfie</option>
                 <option value="look-do-dia">Look do Dia</option>
@@ -117,8 +123,9 @@
                 <option value="antes-depois">Antes e Depois</option>
                 <option value="trend">Trends / Viral</option>
             </select>
-            <button type="submit">Enviar</button>
+            <button class="btn-h" type="submit">Enviar</button>
         </form>
+        <span class="resultado-hashtag"></span>
     </section>
 
 
