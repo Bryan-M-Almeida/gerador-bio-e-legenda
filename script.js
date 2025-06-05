@@ -40,7 +40,7 @@ fetch('dados.json')
             if (legendas && legendas.length) {
                 resultado_legenda.innerText = getRandomItem(legendas);
             } else {
-                resultado_legenda.innerText = "Nenhuma legenda encontrada.";
+                resultado_legenda.innerText = "Nenhuma legenda gerada.";
             }
         });
 
@@ -50,7 +50,7 @@ fetch('dados.json')
             if (bios && bios.length) {
                 resultado_biografia.innerText = getRandomItem(bios);
             } else {
-                resultado_biografia.innerText = "Nenhuma bio encontrada.";
+                resultado_biografia.innerText = "Nenhuma bio gerada.";
             }
         });
 
@@ -60,7 +60,7 @@ fetch('dados.json')
             if (hashtag && hashtag.length) {
                 resultado_hashtag.innerText = getRandomItem(hashtag);
             } else {
-                resultado_hashtag.innerText = "Nenhuma hashtag encontrada.";
+                resultado_hashtag.innerText = "Nenhuma hashtag gerada.";
             }
         });
 
